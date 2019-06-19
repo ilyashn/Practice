@@ -1,0 +1,12 @@
+ol {
+    font-size: 30px;
+}
+
+td.aaa {
+    background-color: magenta;
+    color: white;
+}
+
+table {
+    border-width: 5px;
+}
