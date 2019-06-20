@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="handler.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="icheck-material.css" rel="stylesheet" type="text/css">
+    <title>dkz</title>
+</head>
+<body>
+    <div class="auth">
+        <form method="post" onsubmit="auth(this);">
+            <p><input class="auth" name="login" required placeholder="login"><input class="auth" type="password" name="pass" required placeholder="password"> </p>
+            <p><input class="auth" type="submit"></p>
+        </form>
+    </div>
+
+    <hr>
+    <form method="post">
+        <p class="header">How are you?</p>
+        <p class="std"><input type="radio" name="mood" value="fine" id="r1" /><label for="r1">Im fine!</label></p>
+        <p class="std"><input type="radio" name="mood" value="notfine" id="r2" /><label for="r2">Im feeling horrible</label></p>
+        <p class="std"><input type="radio" name="mood" value="idk" id="r3" /><label for="r3">I dont know.</label> </p>
+       <input class="std" type="button" onclick="mod(this);" value="Отправить">
+        <p class="answer" id="text"></p>
+    </form>
+
+    <hr>
+    <form>
+        <p class="header">What do you want for dinner?</p>
+        <p class="std"><input type="checkbox" name="dinner" value="doner" id="cb1" /><label for="cb1">Doner</label></p>
+        <p class="std"><input type="checkbox" name="dinner" value="humburger" id="cb2" /><label for="cb2">Humburger</label></p>
+        <p class="std"><input type="checkbox" name="dinner" value="cola" id="cb3" /><label for="cb3">Cola</label></p>
+        <p class="std"><input type="checkbox" name="dinner" value="juice" id="cb4" /><label for="cb4">Juice</label></p>
+        <input class="std" type="button" onclick="din();" value="Отправить">
+        <p><textarea id="order" readonly >Your order will be here.</textarea></p>
+    </form>
+
+    <hr>
+    <form name="phonenumber">
+        <p class="header">Input your phone number.</p>
+        <p align="center">
+            <select class="select" name="phone1">
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+                <option value="multi" selected>*</option>
+                <option value="devide">/</option>
+            </select>
+            <select class="select" name="phone2">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone3">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone4">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone5">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone6">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone7">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone8">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone9">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone10">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone11">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+            <select class="select" name="phone12">
+                <option value="p1">1</option>
+                <option value="p2">2</option>
+                <option value="p3">3</option>
+                <option value="p4">4</option>
+                <option value="p5">5</option>
+                <option value="p6">6</option>
+                <option value="p7">7</option>
+                <option value="p8">8</option>
+                <option value="p9">9</option>
+                <option value="p0">0</option>
+            </select>
+        </p>
+        <p><input class="std" type="button" onclick="phone();" value="Отправить"></p>
+    </form>
+
+    <hr>
+    <form>
+        <textarea id="txt">Type something.</textarea>
+        <p><input class="std" type="button" onclick="text(this);" value="Отправить"></p>
+    </form>
+</body>
+</html>

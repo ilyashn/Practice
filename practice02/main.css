@@ -1,0 +1,124 @@
+input.auth {
+    border: solid;
+    background-color: #F3A568;
+    width : 30%;
+    height : 50px;
+    border-color : #A24E11;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: -apple-system;
+    padding: 5px;
+    display: block;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input::-webkit-input-placeholder { color: #A24E11; }
+
+input.auth[type=submit] {
+    width: auto;
+    background-color: #FB9A50;
+}
+
+.header {
+    text-align: center;
+    border: solid;
+    background-color: #F3A568;
+    width : 25%;
+    height : auto;
+    border-color : #A24E11;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: -apple-system;
+    padding: 5px;
+    display: block;
+    margin : 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.answer {
+    width : 25%;
+    height : auto;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: -apple-system;
+    padding: 5px;
+    display: block;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input[type=button] {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FB9A50;
+}
+
+input[type=radio] + label{
+    cursor:pointer;
+}
+
+input[type=checkbox] + label{
+    cursor:pointer;
+}
+
+.std {
+    border: solid;
+    background-color: #F3A568;
+    width : 30%;
+    height : auto;
+    border-color : #A24E11;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: -apple-system;
+    padding: 5px;
+    display: block;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    margin : 5px;
+}
+
+textarea {
+    resize: none;
+    border: solid;
+    background-color: #F3A568;
+    width : auto;
+    height : auto;
+    border-color : #A24E11;
+    border-radius: 7px;
+    font-size: 30px;
+    font-family: -apple-system;
+    padding: 5px;
+    display: block;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select {
+    border: solid;
+    background-color: #F3A568;
+    width : 3%;
+    height : auto;
+    border-color : #A24E11;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: -apple-system;
+    padding: 5px;
+    margin : 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: ghostwhite;
+}
