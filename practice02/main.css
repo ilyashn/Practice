@@ -21,6 +21,11 @@ input.auth[type=submit] {
     background-color: #FB9A50;
 }
 
+input.auth[type=submit]:hover {
+    width: auto;
+    background-color: #A24E11;
+}
+
 .header {
     text-align: center;
     border: solid;
@@ -57,6 +62,13 @@ input[type=button] {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #FB9A50;
+}
+
+input[type=button]:hover {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #A24E11;
 }
 
 input[type=radio] + label{
