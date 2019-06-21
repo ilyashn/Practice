@@ -1,0 +1,121 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.4;
+    font-family: "Segoe UI",helvetica,arial,sans-serif;
+    font-size: 16px;
+}
+
+a i {
+    font-size: 14px;
+}
+
+.header {
+    background-color: #264eae;
+}
+
+.inner {
+    display: block;
+    width: 1260px;
+    height: 73px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h-name a {
+    float: left;
+    font-size: 20px;
+    margin-left: 32px;
+    padding: 22px 0;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+.h-logo img {
+    float: left;
+    display: block;
+    margin-right: 0;
+    padding-top: 21px;
+    padding-bottom: 11px;
+    margin-left: 16px;
+    width: 300px;
+}
+
+.header .h-search {
+    float: right;
+    padding: 18px 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.header .h-search form {
+    background: #2f58c0;
+    border-radius: 16px;
+    margin: 0 16px;
+    width: 278px;
+    height: 37px;
+    /*padding-right: 15px;*/
+}
+
+.header .h-search input {
+    background: transparent;
+    border-radius: 16px;
+    width: 222px;
+    height: 21px;
+    border: none;
+    font-size: 16px;
+    font-family: "Segoe UI", helvetica, arial, sans-serif;
+    color: black;
+    padding: 8px 0 8px 16px;
+    outline: none;
+}
+
+.header .h-search form:active {
+    background-color: #FFFFFF;
+}
+
+.header .h-search input:active {
+    background-color: #FFFFFF;
+}
+
+.header .h-search form input::-webkit-input-placeholder
+{
+    color: #ddd;
+}
+.header .h-search form input::-moz-placeholder
+{
+    color: #ddd;
+}
+.header .h-search form input:-ms-input-placeholder
+{
+    color: #ddd;
+}
+.header .h-search form input:-moz-placeholder
+{
+    color: #ddd;
+}
+
+.header .h-search button {
+    cursor: pointer;
+    padding: 8px 8px 4px;
+    margin-top: 2px;
+}
+
+.icon-search {
+    position: absolute;
+    outline: none;
+    padding-right: 15px;
+    background-color: transparent;
+    border: none;
+    color: #dddddd;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.icon-search:active {
+    color: #747474;
+}
