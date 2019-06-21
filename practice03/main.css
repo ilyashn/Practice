@@ -164,3 +164,73 @@ a i {
     text-decoration: none;
     padding: 16px;
 }
+
+.nav a:hover {
+    background-color: #2d55b8;
+}
+
+.intro {
+    position: absolute;
+    top: 127px;
+    left: 0;
+    display: block;
+    height: 500px;
+    width: 100%;
+    min-width: 1260px;
+    background: no-repeat url("background.png") #333 center;
+    background-size: cover;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.i-title {
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 32px;
+}
+
+.i-text {
+    display: block;
+    width: 1228px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.br {
+    width: 100%;
+    height: 1px;
+    margin: 16px 0;
+}
+
+.links {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.intro .links a {
+    font-family: "Segoe UI",helvetica,arial,sans-serif;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px;
+    margin: 16px;
+    font-size: 16px;
+    width: 245px;
+    height: 118px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.intro .links a:hover {
+    /*background: url("linksbg.png");*/
+    background-color: rgba(0,0,0,0.2);
+}
+.links i {
+    padding: 0 78px 15px;
+    /*font-family: "Segoe UI",helvetica,arial,sans-serif;*/
+    /*font-size: 16px;*/
+}
