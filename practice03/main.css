@@ -1,9 +1,12 @@
 body {
+    box-sizing: border-box;
+    min-height: 100%;
     margin: 0 auto;
     padding: 0;
     line-height: 1.4;
     font-family: "Segoe UI",helvetica,arial,sans-serif;
     font-size: 16px;
+    color: black;
 }
 
 a i {
@@ -56,7 +59,6 @@ a i {
     margin: 0 16px;
     width: 278px;
     height: 37px;
-    /*padding-right: 15px;*/
 }
 
 .header .h-search input {
@@ -104,7 +106,7 @@ a i {
 }
 
 .icon-search {
-    position: absolute;
+    /*position: absolute;*/
     outline: none;
     padding-right: 15px;
     background-color: transparent;
@@ -121,9 +123,9 @@ a i {
 }
 
 .nav {
-    position: absolute;
-    top: 73px;
-    left: 0;
+    /*position: absolute;*/
+    /*top: 73px;*/
+    /*left: 0;*/
     background-color: #2f58c0;
     width: 100%;
     min-width: 1260px;
@@ -131,7 +133,6 @@ a i {
 }
 
 .nav>.inner {
-    /*display: flex;*/
     overflow: hidden;
     width: 1260px;
     margin-left: auto;
@@ -170,14 +171,14 @@ a i {
 }
 
 .intro {
-    position: absolute;
-    top: 127px;
-    left: 0;
+    /*position: absolute;*/
+    /*top: 127px;*/
+    /*left: 0;*/
     display: block;
     height: 500px;
     width: 100%;
     min-width: 1260px;
-    background: no-repeat url("background.png") #333 center;
+    background: no-repeat url("pic/background.png") #333 center;
     background-size: cover;
     padding-top: 16px;
     padding-bottom: 32px;
@@ -231,6 +232,269 @@ a i {
 }
 .links i {
     padding: 0 78px 15px;
-    /*font-family: "Segoe UI",helvetica,arial,sans-serif;*/
-    /*font-size: 16px;*/
+}
+
+.contacts {
+    display: block;
+    color: #ffffff;
+    background-color: #333333;
+    font-family: "Segoe UI",helvetica,arial,sans-serif;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.contacts>.inner {
+    margin: 0 auto;
+    padding: 16px;
+    width: 1228px;
+}
+
+.c-left {
+    display: block;
+    width: 30%;
+    float: left;
+}
+.contacts .c-title {
+    color: #8d8d8d;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.contacts>.inner a {
+    font-family: "Segoe UI",helvetica,arial,sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contacts table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.contacts table th{
+    vertical-align: top;
+    color: #8d8d8d;
+    font-weight: 600;
+    padding: 8px 16px 8px 0;
+    text-align: left;
+    width: 100px;
+}
+
+.contacts table td {
+    vertical-align: center;
+    padding: 8px 16px 8px 0;
+    text-align: left;
+}
+
+.contacts .inner .c-left>a {
+    display: inline-block;
+    color: #8d8d8d;
+    opacity: 0.6;
+}
+
+.contacts .sep {
+    display: inline-block;
+    width: 16px;
+    height: 22px;
+}
+
+.contacts .inner .c-nav>a {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.contacts .c-nav {
+    width: 70%;
+    float: left;
+}
+
+.contacts .c-nav a{
+    display: inline-block;
+}
+
+.contacts .c-nav .cr {
+    margin-top: 24px;
+    color: #8d8d8d;
+}
+
+.contacts .c-nav-left {
+    float: left;
+}
+
+.contacts .c-nav-left>a {
+    margin-top: 8px;
+}
+
+.contacts .c-nav-right {
+    float: right;
+}
+
+.contacts .c-nav-right>a {
+    margin-top: 8px;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.content {
+    /*position: absolute;*/
+    /*top: 675px;*/
+    padding-bottom: 16px;
+}
+
+.content>.inner {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.content .posters {
+    margin-top: 28px;
+}
+
+.content .arrow {
+    padding-top: 70px;
+    color: #dddddd;
+}
+
+.content .arrow.left {
+    float: left;
+    padding-right: 71px;
+}
+
+.content .posters a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.content .arrow.right {
+    float: right;
+    padding-left: 70px;
+}
+.content .arrow i:hover {
+    cursor: pointer;
+}
+
+.content .p-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.content .c-poster {
+    padding: 16px;
+    display: inline-block;
+    width: 473px;
+    vertical-align: top;
+}
+
+.content .p-inner {
+    float: left;
+    width: 1058.4px;
+    height: 230px;
+}
+
+.content .p-inner>.sep {
+    display: inline-block;
+    width: 32px;
+    height: 0;
+}
+
+.content .c-pos-nav {
+    text-align: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.content .c-pos-nav>i {
+    padding: 0 4px;
+    color: #a8a8a8;
+}
+
+.content .c-pos-nav>i:hover {
+    cursor: pointer;
+}
+
+.content .c-list {
+    width: 1260px;
+    text-align: center;
+}
+
+.content .c-list>a {
+    width: 380px;
+    margin: 16px;
+    border: 1px solid #ededed;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content .c-list>a img {
+    width: 364px;
+    margin: 8px auto;
+}
+
+.content .c-list td.logo {
+    width: 70px;
+}
+
+.content .c-list td.logo>img {
+    width: 60px;
+}
+
+.content .arrow.down {
+    padding-top: 25px;
+}
+
+.content .l-title {
+    color: #ec0b43;
+    margin: 49px 0 8px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.separator {
+    height: 1px;
+    background: #fa96af;
+    margin: 16px auto;
+    width: 300px;
+}
+
+.content .quotes {
+    width: 1260px;
+}
+
+.quotes>.inner {
+    width: 1022.4px;
+    padding: 16px;
+    float: left;
+    margin: 0 auto;
+}
+
+.content .quotes img {
+    width: 200px;
+}
+
+.content .message {
+    width: 794.4px;
+    /*display: inline-block;*/
+    float: left;
+}
+
+.content .quotes i {
+    display: block;
+}
+
+.content .photo {
+    padding-right: 16px;
+    width: 200px;
+    float: left;
+}
+
+.content .name {
+    margin-top: 24px;
+    font-weight: 600;
+    text-align: right;
 }

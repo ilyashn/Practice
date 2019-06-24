@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'icons';
-    src:  url('fonts/icons.eot?is037s');
-    src:  url('fonts/icons.eot?is037s#iefix') format('embedded-opentype'),
-    url('fonts/icons.ttf?is037s') format('truetype'),
-    url('fonts/icons.woff?is037s') format('woff'),
+    src:  url('../fonts/icons.eot?is037s');
+    src:  url('../fonts/icons.eot?is037s#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?is037s') format('truetype'),
+    url('../fonts/icons.woff?is037s') format('woff'),
     url('https://de.ifmo.ru/assets/css/fonts/icons.svg?is037s#icons') format('svg');
     font-weight: normal;
     font-style: normal;
