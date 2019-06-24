@@ -241,12 +241,15 @@ a i {
     font-family: "Segoe UI",helvetica,arial,sans-serif;
     font-size: 16px;
     padding-bottom: 16px;
+    height: 100%;
+    width: 100%;
 }
 
 .contacts>.inner {
     margin: 0 auto;
     padding: 16px;
     width: 1228px;
+    background-color: #333333;
 }
 
 .c-left {
@@ -484,13 +487,25 @@ a i {
 }
 
 .content .quotes i {
-    display: block;
+    /*display: block;*/
 }
 
 .content .photo {
-    padding-right: 16px;
+    padding-right: 24px;
     width: 200px;
     float: left;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content .quotes td {
+    vertical-align: top;
+    padding: 2px;
+    display: table-cell;
 }
 
 .content .name {
