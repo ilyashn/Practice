@@ -16,6 +16,8 @@ a i {
 .header {
     background-color: #264eae;
     height: 73px;
+    width: 100%;
+    min-width: 1260px;
 }
 
 .header>.inner {
@@ -25,8 +27,11 @@ a i {
     margin-left: auto;
 }
 
-.header .h-name a {
+.header .h-name {
     float: left;
+}
+
+.header .h-name a {
     font-size: 20px;
     margin-left: 32px;
     padding: 22px 0;
@@ -36,8 +41,11 @@ a i {
     text-decoration: none;
 }
 
-.h-logo img {
+.header .h-logo {
     float: left;
+}
+
+.h-logo img {
     display: block;
     margin-right: 0;
     padding-top: 21px;
@@ -243,6 +251,7 @@ a i {
     padding-bottom: 16px;
     height: 100%;
     width: 100%;
+    min-width: 1260px;
 }
 
 .contacts>.inner {
@@ -342,8 +351,8 @@ a i {
 }
 
 .content {
-    /*position: absolute;*/
-    /*top: 675px;*/
+    width: 100%;
+    min-width: 1260px;
     padding-bottom: 16px;
 }
 
@@ -487,7 +496,8 @@ a i {
 }
 
 .content .quotes i {
-    /*display: block;*/
+    width: 10px;
+    height: 10px;
 }
 
 .content .photo {
