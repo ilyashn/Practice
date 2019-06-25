@@ -381,7 +381,7 @@ a i {
 }
 
 .content .arrow.right {
-    float: right;
+    /*float: right;*/
     padding-left: 70px;
 }
 .content .arrow i:hover {
