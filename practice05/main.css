@@ -1,0 +1,81 @@
+body {
+    /*font-family: "Segoe UI",helvetica,arial,sans-serif;*/
+    font-size: 16px;
+}
+
+.searchbar {
+    border-radius: 16px;
+    background-color: rgb(47, 88, 192);
+    padding-right: 16px;
+    height: 37px;
+    /*flex-grow: unset !important;*/
+    /*min-width: 146px;*/
+    width: 230px;
+    /*padding: 10px;*/
+}
+.search_input {
+    padding: 5px 0 5px 10px;
+    border-radius: 16px;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    outline: none;
+    height: 37px;
+    width: 80%;
+}
+
+.search_icon {
+    height: 37px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    /*width: 20%;*/
+
+}
+
+.search_icon:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search_input::-webkit-input-placeholder
+{
+    color: #ddd;
+}
+.search_input::-moz-placeholder
+{
+    color: #ddd;
+}
+.search_input:-ms-input-placeholder
+{
+    color: #ddd;
+}
+.search_input:-moz-placeholder
+{
+    color: #ddd;
+}
+
+div#intro {
+    /*background-color: red;*/
+    background-image: url(pic/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card {
+    border: none !important;
+}
